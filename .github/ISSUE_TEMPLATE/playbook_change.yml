@@ -1,0 +1,50 @@
+name: Playbook Change Request
+description: Propose a new section, artifact, or structural change
+title: "[Playbook] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to propose changes to the Agile Playbook.
+
+  - type: input
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem are we trying to solve?
+      placeholder: Describe the gap or issue clearly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Change
+      description: What should be added, modified, or removed?
+      placeholder: Be specific about sections or files.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Expected Impact
+      description: How will this improve clarity, delivery, transformation, or coaching?
+      placeholder: Explain measurable or practical impact.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: ASCII-only markdown
+          required: true
+        - label: Navigation updated (docs/index.md or section index)
+          required: false
+        - label: Includes examples or templates where applicable
+          required: false
+          
