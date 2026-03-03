@@ -3,7 +3,6 @@
 This maturity model evaluates Agile capability across structural, delivery, cultural, and systemic dimensions.
 
 Purpose:
-
 - Diagnose current state
 - Guide coaching focus
 - Define transformation exit criteria
@@ -12,14 +11,11 @@ Purpose:
 This model is not for ranking teams.
 It is for identifying improvement leverage points.
 
----
-
 ```mermaid
 
-flowchart LR
+flowchart TB
 
   subgraph Level_1["Level 1: Ad Hoc"]
-    direction LR
     L1A[Delivery unstable]
     L1B[Output over outcome]
     L1C[Manual heavy testing]
@@ -28,7 +24,6 @@ flowchart LR
   end
 
   subgraph Level_2["Level 2: Structured"]
-    direction LR
     L2A[Defined ceremonies]
     L2B[Backlog prioritized]
     L2C[Basic CI pipeline]
@@ -37,7 +32,6 @@ flowchart LR
   end
 
   subgraph Level_3["Level 3: Predictable"]
-    direction LR
     L3A[Stable throughput]
     L3B[OKRs defined]
     L3C[Automated tests integrated]
@@ -46,7 +40,6 @@ flowchart LR
   end
 
   subgraph Level_4["Level 4: Optimized"]
-    direction LR
     L4A[Flow variability reduced]
     L4B[Discovery integrated]
     L4C[Refactoring embedded]
@@ -55,7 +48,6 @@ flowchart LR
   end
 
   subgraph Level_5["Level 5: Adaptive"]
-    direction LR
     L5A[Self-diagnosing teams]
     L5B[Outcome-driven planning]
     L5C[Continuous deployment]
@@ -64,9 +56,8 @@ flowchart LR
   end
 
   Level_1 --> Level_2 --> Level_3 --> Level_4 --> Level_5
-  
-  ```
 
+```
   ---
 
 
