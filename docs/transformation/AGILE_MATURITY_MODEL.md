@@ -13,8 +13,9 @@ This model is not for ranking teams.
 It is for identifying improvement leverage points.
 
 <div class="mermaid">
-flowchart TB
+flowchart LR
   subgraph Level_1["Level 1: Ad Hoc"]
+    direction LR
     L1A[Delivery unstable]
     L1B[Output over outcome]
     L1C[Manual heavy testing]
@@ -23,6 +24,7 @@ flowchart TB
   end
 
   subgraph Level_2["Level 2: Structured"]
+    direction LR
     L2A[Defined ceremonies]
     L2B[Backlog prioritized]
     L2C[Basic CI pipeline]
@@ -31,6 +33,7 @@ flowchart TB
   end
 
   subgraph Level_3["Level 3: Predictable"]
+    direction LR
     L3A[Stable throughput]
     L3B[OKRs defined]
     L3C[Automated tests integrated]
@@ -39,6 +42,7 @@ flowchart TB
   end
 
   subgraph Level_4["Level 4: Optimized"]
+    direction LR
     L4A[Flow variability reduced]
     L4B[Discovery integrated]
     L4C[Refactoring embedded]
@@ -47,6 +51,7 @@ flowchart TB
   end
 
   subgraph Level_5["Level 5: Adaptive"]
+    direction LR
     L5A[Self-diagnosing teams]
     L5B[Outcome-driven planning]
     L5C[Continuous deployment]
