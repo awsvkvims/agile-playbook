@@ -8,37 +8,41 @@ theme:
   name: material
 
 nav:
-  - Executive Summary: docs/EXECUTIVE_TRANSFORMATION_SUMMARY.md
-  - Playbook Overview: docs/playbook/PLAYBOOK.md
+  - Executive Summary: EXECUTIVE_TRANSFORMATION_SUMMARY.md
+  - Playbook Overview: playbook/PLAYBOOK.md
 
   - Transformation:
-      - Roadmap Template: docs/transformation/TRANSFORMATION_ROADMAP_TEMPLATE.md
-      - Maturity Model: docs/transformation/AGILE_MATURITY_MODEL.md
-      - Maturity Scoring Worksheet: docs/transformation/MATURITY_SCORING_WORKSHEET.md
-      - Quarterly Executive Review: docs/transformation/QUARTERLY_EXECUTIVE_REVIEW_TEMPLATE.md
+      - Roadmap Template: transformation/TRANSFORMATION_ROADMAP_TEMPLATE.md
+      - Maturity Model: transformation/AGILE_MATURITY_MODEL.md
+      - Maturity Scoring Worksheet: transformation/MATURITY_SCORING_WORKSHEET.md
+      - Quarterly Executive Review: transformation/QUARTERLY_EXECUTIVE_REVIEW_TEMPLATE.md
 
   - Culture:
-      - Common Cultural Barriers: docs/culture/COMMON_CULTURAL_BARRIERS.md
+      - Common Cultural Barriers: culture/COMMON_CULTURAL_BARRIERS.md
 
   - Coaching:
-      - Agile Coaching Structures: docs/coaching/AGILE_COACHING_STRUCTURES.md
-      - Coaching Agreement Template: docs/templates/COACHING_AGREEMENT_TEMPLATE.md
+      - Agile Coaching Structures: coaching/AGILE_COACHING_STRUCTURES.md
+      - Coaching Agreement Template: templates/COACHING_AGREEMENT_TEMPLATE.md
 
   - Delivery and Flow:
-      - Metrics Framework: docs/metrics/METRICS_FRAMEWORK.md
-      - Transformation Health Dashboard: docs/metrics/TRANSFORMATION_HEALTH_DASHBOARD.md
-      - Value Stream Flow: docs/diagrams/swimlanes/VALUE_STREAM_FLOW.md
-      - Framework Comparison: docs/diagrams/FRAMEWORK_VALUE_STREAM_COMPARISON.md
-      - Unified Overlay: docs/diagrams/UNIFIED_VALUE_STREAM_OVERLAY.md
+      - Metrics Framework: metrics/METRICS_FRAMEWORK.md
+      - Transformation Health Dashboard: metrics/TRANSFORMATION_HEALTH_DASHBOARD.md
+      - Value Stream Flow: diagrams/swimlanes/VALUE_STREAM_FLOW.md
+      - Framework Comparison: diagrams/FRAMEWORK_VALUE_STREAM_COMPARISON.md
+      - Unified Overlay: diagrams/UNIFIED_VALUE_STREAM_OVERLAY.md
 
   - Governance:
-      - Agile Operating Model RACI: docs/raci/AGILE_OPERATING_MODEL_RACI.md
-      - Coaching Escalation Flow: docs/diagrams/swimlanes/COACHING_ESCALATION_FLOW.md
+      - Agile Operating Model RACI: raci/AGILE_OPERATING_MODEL_RACI.md
+      - Coaching Escalation Flow: diagrams/swimlanes/COACHING_ESCALATION_FLOW.md
 
   - Templates:
-      - Retrospective Template: docs/templates/RETROSPECTIVE_TEMPLATE.md
-      - Working Agreement Template: docs/templates/WORKING_AGREEMENT_TEMPLATE.md
+      - Retrospective Template: templates/RETROSPECTIVE_TEMPLATE.md
+      - Working Agreement Template: templates/WORKING_AGREEMENT_TEMPLATE.md
 
+  - Site:
+      - Site Instructions: SITE.md
+      - Style Guide: STYLE_GUIDE.md
+      
 markdown_extensions:
   - toc:
       permalink: true
