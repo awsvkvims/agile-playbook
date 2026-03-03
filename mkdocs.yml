@@ -1,7 +1,7 @@
 site_name: Agile Transformation Playbook
 site_description: Operating model, coaching structures, metrics, governance, and transformation artifacts
 site_author: Your Organization
-repo_url: https://github.com/awsvkvims/agile-playbook
+repo_url: https://github.com/YOUR_USERNAME/agile-playbook
 repo_name: agile-playbook
 
 theme:
@@ -45,11 +45,11 @@ markdown_extensions:
   - tables
   - fenced_code
   - pymdownx.superfences:
-    custom_fences:
-      - name: mermaid
-        class: mermaid
-        format: !!python/name:pymdownx.superfences.fence_code_format
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_javascript:
   - https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js
-  - js/mermaid-init.js          
+  - js/mermaid-init.js
