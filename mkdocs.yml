@@ -1,0 +1,46 @@
+site_name: Agile Transformation Playbook
+site_description: Operating model, coaching structures, metrics, governance, and transformation artifacts
+site_author: Your Organization
+repo_url: https://github.com/awsvkvims/agile-playbook
+repo_name: agile-playbook
+
+theme:
+  name: material
+
+nav:
+  - Executive Summary: docs/EXECUTIVE_TRANSFORMATION_SUMMARY.md
+  - Playbook Overview: docs/playbook/PLAYBOOK.md
+
+  - Transformation:
+      - Roadmap Template: docs/transformation/TRANSFORMATION_ROADMAP_TEMPLATE.md
+      - Maturity Model: docs/transformation/AGILE_MATURITY_MODEL.md
+      - Maturity Scoring Worksheet: docs/transformation/MATURITY_SCORING_WORKSHEET.md
+      - Quarterly Executive Review: docs/transformation/QUARTERLY_EXECUTIVE_REVIEW_TEMPLATE.md
+
+  - Culture:
+      - Common Cultural Barriers: docs/culture/COMMON_CULTURAL_BARRIERS.md
+
+  - Coaching:
+      - Agile Coaching Structures: docs/coaching/AGILE_COACHING_STRUCTURES.md
+      - Coaching Agreement Template: docs/templates/COACHING_AGREEMENT_TEMPLATE.md
+
+  - Delivery and Flow:
+      - Metrics Framework: docs/metrics/METRICS_FRAMEWORK.md
+      - Transformation Health Dashboard: docs/metrics/TRANSFORMATION_HEALTH_DASHBOARD.md
+      - Value Stream Flow: docs/diagrams/swimlanes/VALUE_STREAM_FLOW.md
+      - Framework Comparison: docs/diagrams/FRAMEWORK_VALUE_STREAM_COMPARISON.md
+      - Unified Overlay: docs/diagrams/UNIFIED_VALUE_STREAM_OVERLAY.md
+
+  - Governance:
+      - Agile Operating Model RACI: docs/raci/AGILE_OPERATING_MODEL_RACI.md
+      - Coaching Escalation Flow: docs/diagrams/swimlanes/COACHING_ESCALATION_FLOW.md
+
+  - Templates:
+      - Retrospective Template: docs/templates/RETROSPECTIVE_TEMPLATE.md
+      - Working Agreement Template: docs/templates/WORKING_AGREEMENT_TEMPLATE.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
