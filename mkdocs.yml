@@ -6,6 +6,8 @@ repo_name: agile-playbook
 
 theme:
   name: material
+  features:
+    - navigation.footer
 
 nav:
   - Executive Summary: EXECUTIVE_TRANSFORMATION_SUMMARY.md
@@ -57,3 +59,6 @@ markdown_extensions:
 extra_javascript:
   - https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js
   - js/mermaid-init.js
+
+extra_css:
+  - css/extra.css  
