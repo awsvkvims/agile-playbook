@@ -1,4 +1,18 @@
-```mermaid
+
+# Agile Maturity Model
+
+This maturity model evaluates Agile capability across structural, delivery, cultural, and systemic dimensions.
+
+Purpose:
+- Diagnose current state
+- Guide coaching focus
+- Define transformation exit criteria
+- Prevent false maturity signals
+
+This model is not for ranking teams.
+It is for identifying improvement leverage points.
+
+<div class="mermaid">
 flowchart TB
   subgraph Level_1["Level 1: Ad Hoc"]
     L1A[Delivery unstable]
@@ -41,7 +55,7 @@ flowchart TB
   end
 
   Level_1 --> Level_2 --> Level_3 --> Level_4 --> Level_5
-  ```
+</div>
 
   ---
 
