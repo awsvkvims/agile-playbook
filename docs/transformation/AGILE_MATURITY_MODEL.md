@@ -3,6 +3,7 @@
 This maturity model evaluates Agile capability across structural, delivery, cultural, and systemic dimensions.
 
 Purpose:
+
 - Diagnose current state
 - Guide coaching focus
 - Define transformation exit criteria
@@ -12,7 +13,9 @@ This model is not for ranking teams.
 It is for identifying improvement leverage points.
 
 ---
+
 ```mermaid
+
 flowchart LR
 
   subgraph Level_1["Level 1: Ad Hoc"]
