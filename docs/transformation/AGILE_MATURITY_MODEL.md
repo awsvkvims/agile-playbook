@@ -1,20 +1,5 @@
-# Agile Maturity Model
-
-This maturity model evaluates Agile capability across structural, delivery, cultural, and systemic dimensions.
-
-Purpose:
-- Diagnose current state
-- Guide coaching focus
-- Define transformation exit criteria
-- Prevent false maturity signals
-
-This model is not for ranking teams.
-It is for identifying improvement leverage points.
-
 ```mermaid
-
 flowchart TB
-
   subgraph Level_1["Level 1: Ad Hoc"]
     L1A[Delivery unstable]
     L1B[Output over outcome]
@@ -56,18 +41,18 @@ flowchart TB
   end
 
   Level_1 --> Level_2 --> Level_3 --> Level_4 --> Level_5
+  ```
 
-```
   ---
 
 
 # 1. Maturity Levels
 
-Level 1: Ad Hoc
-Level 2: Structured
-Level 3: Predictable
-Level 4: Optimized
-Level 5: Adaptive
+- Level 1: Ad Hoc
+- Level 2: Structured
+- Level 3: Predictable
+- Level 4: Optimized
+- Level 5: Adaptive
 
 Progression is not strictly linear across all dimensions.
 
