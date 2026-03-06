@@ -14,6 +14,63 @@ The goal of the playbook is to make the transformation **explicit, repeatable, a
 
 ---
 
+<div class="mermaid">
+flowchart TB
+
+A[Agile Operating Model]
+
+A --> B
+A --> C
+A --> D
+A --> E
+A --> F
+
+subgraph B[Delivery System]
+B1[Value Stream Flow]
+B2[Framework Overlay]
+B3[Metrics Framework]
+end
+
+subgraph C[Governance]
+C1[Operating Model RACI]
+C2[Escalation Flow]
+end
+
+subgraph D[Coaching and Capability]
+D1[Agile Coaching Structures]
+D2[Maturity Model]
+D3[Maturity Scoring Worksheet]
+end
+
+subgraph E[Product and Value]
+E1[Transformation Roadmap]
+E2[Outcome Measurement]
+end
+
+subgraph F[Culture and Leadership]
+F1[Common Cultural Barriers]
+F2[Leadership Alignment]
+end
+
+classDef core fill:#1f4e79,color:#ffffff,stroke:#1f4e79;
+
+classDef delivery fill:#dbeafe,stroke:#2563eb,color:#000;
+classDef governance fill:#fde68a,stroke:#d97706,color:#000;
+classDef coaching fill:#ede9fe,stroke:#7c3aed,color:#000;
+classDef value fill:#dcfce7,stroke:#16a34a,color:#000;
+classDef culture fill:#f3f4f6,stroke:#6b7280,color:#000;
+
+class A core
+
+class B1,B2,B3 delivery
+class C1,C2 governance
+class D1,D2,D3 coaching
+class E1,E2 value
+class F1,F2 culture
+</div>
+
+---
+
 # How to Use This Playbook
 
 The playbook is organized around the core capabilities required to operate an Agile delivery organization.
