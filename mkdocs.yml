@@ -22,6 +22,7 @@ nav:
       - Transformation Lifecycle: transformation/TRANSFORMATION_LIFECYCLE.md
       - Transformation Roles: transformation/TRANSFORMATION_ROLES.md
       - Transformation Organizational Topologies: transformation/TRANSFORMATION_ORGANIZATIONAL_TOPOLOGIES.md
+      - Transformation Anti-Patterns: transformation/TRANSFORMATION_ANTI_PATTERNS.md
       - Roadmap Template: transformation/TRANSFORMATION_ROADMAP_TEMPLATE.md
       - Maturity Model: transformation/AGILE_MATURITY_MODEL.md
       - Maturity Scoring Worksheet: transformation/MATURITY_SCORING_WORKSHEET.md
