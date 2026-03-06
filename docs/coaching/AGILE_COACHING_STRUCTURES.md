@@ -12,6 +12,107 @@ Coaching structures answer:
 
 ---
 
+## Coaching Modalities
+
+Modern Agile transformations typically use several complementary coaching approaches.
+
+Rather than relying on a single coaching model, organizations combine multiple mechanisms to build capability across teams and leadership.
+
+Common coaching modalities include:
+
+### Advisory Coaching
+
+Traditional Agile coaching focuses on helping teams and leaders adopt Agile practices.
+
+Activities include:
+
+- facilitating retrospectives
+- improving team collaboration
+- helping leaders understand Agile principles
+- guiding delivery workflow improvements
+
+---
+
+### Engineering Practice Coaching
+
+Engineering practice coaching focuses on improving technical delivery capabilities.
+
+Typical focus areas include:
+
+- test-driven development
+- refactoring practices
+- pair programming
+- clean code and design principles
+
+See:
+
+- [XP Engineering Practices](../capability/XP_ENGINEERING_PRACTICES.md)
+
+---
+
+### DevOps Coaching
+
+DevOps coaching helps teams adopt modern delivery and operational practices.
+
+Common focus areas include:
+
+- CI/CD pipeline development
+- deployment automation
+- infrastructure as code
+- observability practices
+
+See:
+
+- [DevOps Coaching Model](../capability/DEVOPS_COACHING_MODEL.md)
+
+---
+
+### Dojo-Based Coaching
+
+Dojo programs provide immersive learning environments where teams practice new engineering and delivery practices with coach support.
+
+This model accelerates capability development through hands-on experience.
+
+See:
+
+- [Dojo Model](../capability/DOJO_MODEL.md)
+
+---
+
+### Community-Based Learning
+
+Coaching also occurs through peer learning forums.
+
+Examples include:
+
+- communities of practice
+- engineering guilds
+- technical forums
+
+These forums help spread practices organically across teams.
+
+See:
+
+- [Continuous Learning Forums](../capability/CONTINUOUS_LEARNING.md)
+
+---
+
+### Kaizen Enablement
+
+Coaches also support teams in developing a culture of continuous improvement.
+
+This includes:
+
+- improving retrospectives
+- encouraging experimentation
+- helping teams implement improvement ideas
+
+See:
+
+- [Kaizen Culture](../capability/KAIZEN_CULTURE.md)
+
+---
+
 # 1. Purpose of Coaching Structures
 
 Agile coaching is most effective when it is intentional and operationally defined. A coaching structure provides:
@@ -265,3 +366,11 @@ This chapter pairs with:
 - RACI definitions (docs/raci)
 - Swimlane diagrams for escalation and engagement (docs/diagrams/swimlanes)
 - Metrics definitions (docs/metrics)
+
+## Related
+
+- [Transformation Roles](../transformation/TRANSFORMATION_ROLES.md)
+- [Continuous Learning Forums](../capability/CONTINUOUS_LEARNING.md)
+- [XP Engineering Practices](../capability/XP_ENGINEERING_PRACTICES.md)
+- [DevOps Coaching Model](../capability/DEVOPS_COACHING_MODEL.md)
+- [Dojo Model](../capability/DOJO_MODEL.md)

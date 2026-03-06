@@ -42,14 +42,16 @@ C2[Escalation Flow]
 end
 
 subgraph D[Capability Development]
-D1[Agile Coaching Structures]
-D2[Maturity Model]
-D3[Maturity Assessment]
+D1[Continuous Learning Forums]
+D2[Kaizen Culture]
+D3[XP Engineering Practices]
+D4[DevOps Coaching Model]
+D5[Dojo Model]
 end
 
 subgraph E[Transformation Lifecycle]
 E1[Roadmap]
-E2[Lifecycle]
+E2[Maturity Assessment]
 E3[Executive Review]
 end
 
@@ -71,7 +73,7 @@ class A core
 
 class B1,B2,B3 delivery
 class C1,C2 governance
-class D1,D2,D3 capability
+class D1,D2,D3,D4,D5 capability
 class E1,E2,E3 lifecycle
 class F1,F2,F3 artifacts
 </div>

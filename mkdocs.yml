@@ -20,6 +20,7 @@ nav:
 
   - Transformation:
       - Transformation Lifecycle: transformation/TRANSFORMATION_LIFECYCLE.md
+      - Transformation Roles: transformation/TRANSFORMATION_ROLES.md
       - Roadmap Template: transformation/TRANSFORMATION_ROADMAP_TEMPLATE.md
       - Maturity Model: transformation/AGILE_MATURITY_MODEL.md
       - Maturity Scoring Worksheet: transformation/MATURITY_SCORING_WORKSHEET.md
