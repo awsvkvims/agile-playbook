@@ -1,5 +1,27 @@
 # Unified Value Stream Overlay
 
+## Context
+
+This diagram overlays common Agile scaling frameworks onto the same underlying value stream.
+
+It helps explain how different frameworks structure delivery while relying on the same fundamental flow of work.
+
+See:
+
+- [Playbook Overview](../playbook/PLAYBOOK.md)
+
+Related diagrams:
+
+- [Value Stream Flow](swimlanes/VALUE_STREAM_FLOW.md)
+- [Framework Value Stream Comparison](FRAMEWORK_VALUE_STREAM_COMPARISON.md)
+
+Related artifacts:
+
+- [Metrics Framework](../metrics/METRICS_FRAMEWORK.md)
+- [Transformation Health Dashboard](../metrics/TRANSFORMATION_HEALTH_DASHBOARD.md)
+
+---
+
 This diagram overlays major scaling frameworks onto a common value stream.
 
 Common backbone:
