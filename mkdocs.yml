@@ -8,6 +8,10 @@ theme:
   name: material
   features:
     - navigation.footer
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - search.highlight
 
 nav:
   - Executive Summary: EXECUTIVE_TRANSFORMATION_SUMMARY.md
