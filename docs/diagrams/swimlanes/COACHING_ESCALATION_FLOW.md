@@ -2,7 +2,7 @@
 
 This swimlane describes how impediments move from team-level handling to systemic escalation.
 
-```mermaid
+<div class="mermaid">
 flowchart LR
 
   subgraph Team
@@ -31,7 +31,7 @@ flowchart LR
   L --> M[Inspect outcome in retro]
   J --> N[Communicate resolution]
   N --> O[Implement structural change]
-  ```
+  </div>>
 ## Escalation Principles
 
 - Escalate facts, not emotions.

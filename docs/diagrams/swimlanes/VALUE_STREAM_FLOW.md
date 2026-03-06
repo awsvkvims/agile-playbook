@@ -4,7 +4,7 @@ This swimlane represents how work flows from idea to delivered value.
 
 The goal is to visualize wait states, handoffs, and accountability boundaries.
 
-```mermaid
+<div class="mermaid">
 flowchart TB
 
   subgraph Discovery
@@ -36,7 +36,7 @@ flowchart TB
   M -- No --> O[Adjust hypothesis]
   O --> B
 
-  ```
+ </div>>
 
   ## Flow Metrics Mapping
 

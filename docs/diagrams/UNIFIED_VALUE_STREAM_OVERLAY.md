@@ -8,7 +8,7 @@ Idea -> Validation -> Prioritization -> Development -> Integration -> Deployment
 
 Framework labels show where each framework places structure and governance emphasis.
 
-```mermaid
+<div class="mermaid">
 flowchart LR
 
   A[Idea] --> B[Validation]
@@ -45,7 +45,7 @@ flowchart LR
   D -. Construction .- E
   F -. Transition .- G
   G -. Enterprise Awareness .- H
-  ```
+  </div>
 
   ---
 
