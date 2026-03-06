@@ -36,6 +36,7 @@ nav:
       - Continuous Learning Forums: capability/CONTINUOUS_LEARNING.md
       - Kaizen Culture: capability/KAIZEN_CULTURE.md
       - XP Engineering Practices: capability/XP_ENGINEERING_PRACTICES.md
+      - DevOps Coaching Model: capability/DEVOPS_COACHING_MODEL.md
 
   - Delivery and Flow:
       - Metrics Framework: metrics/METRICS_FRAMEWORK.md
