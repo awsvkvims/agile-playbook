@@ -15,6 +15,101 @@ The goal is to make Agile transformation **explicit, repeatable, and measurable*
 
 ---
 
+## Unified Transformation Model
+
+This playbook describes Agile transformation as a system that evolves over time through capability development, organizational learning, and continuous improvement.
+
+<div class="mermaid">
+flowchart TB
+
+subgraph Transformation Journey
+A[Discovery]
+B[Pilot]
+C[Expansion]
+D[Scaling]
+E[Optimization]
+F[Continuous Evolution]
+end
+
+A --> B --> C --> D --> E --> F
+
+subgraph Capability Accelerators
+X1[Agile Coaching]
+X2[XP Engineering Practices]
+X3[DevOps Coaching]
+X4[Dojo Programs]
+X5[Communities of Practice]
+X6[Kaizen Culture]
+end
+
+B -.-> X4
+B -.-> X2
+C -.-> X5
+C -.-> X3
+D -.-> X3
+E -.-> X6
+F -.-> X6
+
+subgraph Transformation System
+S1[Delivery System]
+S2[Governance]
+S3[Metrics Framework]
+S4[Transformation Lifecycle]
+end
+
+C --> S1
+C --> S2
+D --> S3
+E --> S4
+
+subgraph Maturity Progression
+M1[Ad Hoc]
+M2[Structured]
+M3[Predictable]
+M4[Optimized]
+M5[Adaptive]
+end
+
+A -.-> M1
+B -.-> M2
+C -.-> M3
+D -.-> M3
+E -.-> M4
+F -.-> M5
+
+classDef phase fill:#dbeafe,stroke:#2563eb,color:#000;
+classDef accel fill:#ede9fe,stroke:#7c3aed,color:#000;
+classDef system fill:#dcfce7,stroke:#16a34a,color:#000;
+classDef maturity fill:#fde68a,stroke:#d97706,color:#000;
+
+class A,B,C,D,E,F phase
+class X1,X2,X3,X4,X5,X6 accel
+class S1,S2,S3,S4 system
+class M1,M2,M3,M4,M5 maturity
+</div>
+
+### How to Read This Model
+
+The transformation model combines several dimensions of organizational change.
+
+**Transformation Journey**
+
+Organizations typically progress through phases ranging from discovery and experimentation to continuous evolution.
+
+**Capability Accelerators**
+
+Capability accelerators help teams and leaders adopt new practices more rapidly. Examples include Dojo programs, DevOps coaching, and engineering communities.
+
+**Transformation System**
+
+The playbook defines structural components that support transformation, including delivery systems, governance models, metrics frameworks, and transformation lifecycle processes.
+
+**Maturity Progression**
+
+As transformation progresses, organizations develop higher levels of delivery maturity, moving from ad hoc practices to adaptive and continuously improving systems.
+
+---
+
 ## Agile Transformation System Architecture
 
 The playbook defines an integrated system for designing, executing, and sustaining Agile transformation.
@@ -76,6 +171,55 @@ class C1,C2 governance
 class D1,D2,D3,D4,D5 capability
 class E1,E2,E3 lifecycle
 class F1,F2,F3 artifacts
+</div>
+
+---
+
+## Transformation Journey
+
+Agile transformation typically progresses through several stages as organizations build delivery capability and cultural alignment.
+
+<div class="mermaid">
+flowchart LR
+
+A[Discovery]
+B[Pilot]
+C[Expansion]
+D[Scaling]
+E[Optimization]
+F[Continuous Evolution]
+
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+
+subgraph Capability Accelerators
+X1[Dojo Programs]
+X2[XP Practices]
+X3[DevOps Enablement]
+X4[Communities of Practice]
+X5[Kaizen Culture]
+
+
+end
+
+
+B -.-> X1
+B -.-> X2
+C -.-> X3
+C -.-> X4
+D -.-> X3
+E -.-> X5
+F -.-> X5
+
+classDef phase fill:#dbeafe,stroke:#2563eb,color:#000;
+classDef accel fill:#ede9fe,stroke:#7c3aed,color:#000;
+
+class A,B,C,D,E,F phase
+class X1,X2,X3,X4,X5 accel
 </div>
 
 ---
