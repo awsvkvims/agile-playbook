@@ -20,37 +20,64 @@ The transformation health dashboard brings together delivery, quality, value, an
 <div class="mermaid">
 flowchart TB
 
-A[Transformation Health]
+A[Transformation Health Dashboard]
 
-A --> B[Flow and Delivery]
-A --> C[Predictability]
-A --> D[Quality]
-A --> E[Product Value]
-A --> F[Culture and Governance]
+A --> B
+A --> C
+A --> D
+A --> E
+A --> F
 
-B --> B1[Lead Time]
-B --> B2[Cycle Time]
-B --> B3[Throughput]
-B --> B4[Flow Efficiency]
+subgraph B[Flow and Delivery]
+B1[Lead Time]
+B2[Cycle Time]
+B3[Throughput]
+B4[Flow Efficiency]
+end
 
-C --> C1[Commitment Reliability]
-C --> C2[Carryover Rate]
-C --> C3[Unplanned Work]
+subgraph C[Predictability]
+C1[Commitment Reliability]
+C2[Carryover Rate]
+C3[Unplanned Work]
+end
 
-D --> D1[Defect Escape Rate]
-D --> D2[Rework Rate]
-D --> D3[Deployment Frequency]
-D --> D4[Mean Time To Recovery]
+subgraph D[Quality]
+D1[Defect Escape Rate]
+D2[Rework Rate]
+D3[Deployment Frequency]
+D4[Mean Time To Recovery]
+end
 
-E --> E1[Feature Adoption]
-E --> E2[Outcome Achievement]
-E --> E3[Time to Feedback]
+subgraph E[Product Value]
+E1[Feature Adoption]
+E2[Outcome Achievement]
+E3[Time to Feedback]
+end
 
-F --> F1[Psychological Safety]
-F --> F2[Retro Action Completion]
-F --> F3[Escalation Frequency]
-F --> F4[Escalation Resolution Latency]
+subgraph F[Culture and Governance]
+F1[Psychological Safety]
+F2[Retro Action Completion]
+F3[Escalation Frequency]
+F4[Escalation Resolution Latency]
+end
+
+classDef header fill:#1f4e79,color:#ffffff,stroke:#1f4e79;
+
+classDef flow fill:#dbeafe,stroke:#2563eb,color:#000;
+classDef predict fill:#ede9fe,stroke:#7c3aed,color:#000;
+classDef quality fill:#ffedd5,stroke:#ea580c,color:#000;
+classDef value fill:#dcfce7,stroke:#16a34a,color:#000;
+classDef culture fill:#f3f4f6,stroke:#6b7280,color:#000;
+
+class A header
+
+class B1,B2,B3,B4 flow
+class C1,C2,C3 predict
+class D1,D2,D3,D4 quality
+class E1,E2,E3 value
+class F1,F2,F3,F4 culture
 </div>
+
 ---
 # 1. Dashboard Structure
 

@@ -42,6 +42,16 @@ D1 --- D3[Mean Time To Recovery]
 
 O1 --- O2[Adoption]
 O1 --- O3[OKR Achievement]
+
+classDef flow fill:#dbeafe,stroke:#2563eb,color:#000;
+classDef quality fill:#ffedd5,stroke:#ea580c,color:#000;
+classDef deploy fill:#fde68a,stroke:#d97706,color:#000;
+classDef value fill:#dcfce7,stroke:#16a34a,color:#000;
+
+class F2,F3,F4 flow
+class Q2,Q3 quality
+class D2,D3 deploy
+class O2,O3 value
 </div>
 ---
 
