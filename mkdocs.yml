@@ -19,6 +19,7 @@ nav:
   - Playbook Overview: playbook/PLAYBOOK.md
 
   - Transformation:
+      - Transformation Principles: transformation/TRANSFORMATION_PRINCIPLES.md
       - Transformation Lifecycle: transformation/TRANSFORMATION_LIFECYCLE.md
       - Transformation Roles: transformation/TRANSFORMATION_ROLES.md
       - Transformation Organizational Topologies: transformation/TRANSFORMATION_ORGANIZATIONAL_TOPOLOGIES.md
