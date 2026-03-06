@@ -15,7 +15,7 @@ A[Transformation Roadmap]
 B[Maturity Assessment]
 C[Capability Development]
 D[Delivery Improvement]
-E[Metrics Measurement]
+E[Metrics Framework]
 F[Transformation Dashboard]
 G[Executive Review]
 
@@ -26,6 +26,21 @@ D --> E
 E --> F
 F --> G
 G --> A
+
+classDef roadmap fill:#dcfce7,stroke:#16a34a,color:#000;
+classDef maturity fill:#ede9fe,stroke:#7c3aed,color:#000;
+classDef delivery fill:#dbeafe,stroke:#2563eb,color:#000;
+classDef metrics fill:#ffedd5,stroke:#ea580c,color:#000;
+classDef dashboard fill:#fde68a,stroke:#d97706,color:#000;
+classDef exec fill:#f3f4f6,stroke:#6b7280,color:#000;
+
+class A roadmap
+class B maturity
+class C maturity
+class D delivery
+class E metrics
+class F dashboard
+class G exec
 </div>
 
 ---
