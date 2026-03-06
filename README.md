@@ -1,5 +1,8 @@
 # Agile Playbook
 
+![Version](https://img.shields.io/badge/version-v1.0-blue)
+![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-blue)
+
 A practical playbook for Agile transformation, delivery excellence, coaching, culture, and metrics.
 
 ## Contents
