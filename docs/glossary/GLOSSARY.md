@@ -10,7 +10,7 @@ The structure that defines how teams deliver value, how decisions are made, and 
 
 Artifacts:
 
-- [Agile Operating Model RACI](raci/AGILE_OPERATING_MODEL_RACI.md)
+- [Agile Operating Model RACI](../raci/AGILE_OPERATING_MODEL_RACI.md)
 
 ---
 
@@ -20,8 +20,8 @@ The end-to-end flow of work from idea intake to customer delivery and feedback.
 
 Related artifacts:
 
-- [Value Stream Flow](diagrams/swimlanes/VALUE_STREAM_FLOW.md)
-- [Metrics Framework](metrics/METRICS_FRAMEWORK.md)
+- [Value Stream Flow](../diagrams/swimlanes/VALUE_STREAM_FLOW.md)
+- [Metrics Framework](../metrics/METRICS_FRAMEWORK.md)
 
 ---
 
@@ -53,7 +53,7 @@ Examples:
 
 Defined in:
 
-- [Metrics Framework](metrics/METRICS_FRAMEWORK.md)
+- [Metrics Framework](../metrics/METRICS_FRAMEWORK.md)
 
 ---
 
@@ -63,7 +63,7 @@ An executive-level view of transformation progress using metrics across delivery
 
 See:
 
-- [Transformation Health Dashboard](metrics/TRANSFORMATION_HEALTH_DASHBOARD.md)
+- [Transformation Health Dashboard](../metrics/TRANSFORMATION_HEALTH_DASHBOARD.md)
 
 ---
 
@@ -73,7 +73,7 @@ A model used to evaluate the capability of teams and organizations across delive
 
 See:
 
-- [Agile Maturity Model](transformation/AGILE_MATURITY_MODEL.md)
+- [Agile Maturity Model](../transformation/AGILE_MATURITY_MODEL.md)
 
 ---
 
@@ -83,7 +83,7 @@ A backlog of system-level improvement initiatives that strengthen the Agile oper
 
 See:
 
-- [Transformation Backlog](artifacts/TRANSFORMATION_BACKLOG_TEMPLATE.md)
+- [Transformation Backlog](../artifacts/TRANSFORMATION_BACKLOG_TEMPLATE.md)
 
 ---
 

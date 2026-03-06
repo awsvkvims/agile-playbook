@@ -112,7 +112,7 @@ Recommended order:
 
 ## Reference
 
-- [Glossary](GLOSSARY.md)
+- [Glossary](glossary/GLOSSARY.md)
 
 ---
 

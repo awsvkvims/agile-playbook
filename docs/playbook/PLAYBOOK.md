@@ -372,7 +372,7 @@ Key terminology used across the playbook is defined in the glossary.
 
 See:
 
-- [Glossary](../GLOSSARY.md)
+- [Glossary](../glossary/GLOSSARY.md)
 
 ---
 
