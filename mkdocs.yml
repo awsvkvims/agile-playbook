@@ -37,6 +37,7 @@ nav:
       - Kaizen Culture: capability/KAIZEN_CULTURE.md
       - XP Engineering Practices: capability/XP_ENGINEERING_PRACTICES.md
       - DevOps Coaching Model: capability/DEVOPS_COACHING_MODEL.md
+      - Dojo Model: capability/DOJO_MODEL.md
 
   - Delivery and Flow:
       - Metrics Framework: metrics/METRICS_FRAMEWORK.md
