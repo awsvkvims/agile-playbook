@@ -12,6 +12,38 @@ Each metric must include:
 - Anti-pattern warning
 
 ---
+## Metrics Architecture
+
+The metrics framework measures delivery performance across the value stream, from idea intake to customer outcomes.
+
+<div class="mermaid">
+flowchart LR
+
+A[Idea Intake] --> B[Development]
+B --> C[Integration]
+C --> D[Deployment]
+D --> E[Customer Feedback]
+E --> F[Outcome Measurement]
+
+B --- F1[Flow Metrics]
+C --- Q1[Quality Metrics]
+D --- D1[Deployment Metrics]
+F --- O1[Outcome Metrics]
+
+F1 --- F2[Lead Time]
+F1 --- F3[Cycle Time]
+F1 --- F4[Throughput]
+
+Q1 --- Q2[Defect Escape Rate]
+Q1 --- Q3[Rework Rate]
+
+D1 --- D2[Deployment Frequency]
+D1 --- D3[Mean Time To Recovery]
+
+O1 --- O2[Adoption]
+O1 --- O3[OKR Achievement]
+</div>
+---
 
 # 1. Flow Metrics
 
