@@ -73,6 +73,9 @@ class F1,F2 culture
 
 ## Transformation Lifecycle
 
+Transformation is not a one-time rollout. It operates as a continuous learning loop that connects strategy, capability building, delivery improvement, measurement, and executive review.
+
+
 <div class="mermaid">
 flowchart LR
 
