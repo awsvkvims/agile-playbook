@@ -71,6 +71,42 @@ class F1,F2 culture
 
 ---
 
+## Transformation Lifecycle
+
+<div class="mermaid">
+flowchart LR
+
+A[Transformation Roadmap]
+B[Capability Development]
+C[Delivery System Improvement]
+D[Metrics Framework]
+E[Transformation Dashboard]
+F[Executive Review]
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> A
+
+classDef roadmap fill:#dcfce7,stroke:#16a34a,color:#000;
+classDef capability fill:#ede9fe,stroke:#7c3aed,color:#000;
+classDef delivery fill:#dbeafe,stroke:#2563eb,color:#000;
+classDef metrics fill:#ffedd5,stroke:#ea580c,color:#000;
+classDef dashboard fill:#fde68a,stroke:#d97706,color:#000;
+classDef exec fill:#f3f4f6,stroke:#6b7280,color:#000;
+
+class A roadmap
+class B capability
+class C delivery
+class D metrics
+class E dashboard
+class F exec
+</div>
+
+---
+
 # How to Use This Playbook
 
 The playbook is organized around the core capabilities required to operate an Agile delivery organization.
