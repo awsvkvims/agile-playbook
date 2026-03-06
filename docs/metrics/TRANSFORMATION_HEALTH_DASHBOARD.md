@@ -13,6 +13,19 @@ This dashboard is not a performance ranking tool.
 It is an early warning and decision-support system.
 
 ---
+## Related
+
+The dashboard aggregates signals from several parts of the Agile operating model.
+
+See also:
+
+- [Metrics Framework](METRICS_FRAMEWORK.md)
+- [Value Stream Flow](../diagrams/swimlanes/VALUE_STREAM_FLOW.md)
+- [Agile Maturity Model](../transformation/AGILE_MATURITY_MODEL.md)
+- [Maturity Scoring Worksheet](../transformation/MATURITY_SCORING_WORKSHEET.md)
+- [Transformation Roadmap Template](../transformation/TRANSFORMATION_ROADMAP_TEMPLATE.md)
+- [Agile Coaching Structures](../coaching/AGILE_COACHING_STRUCTURES.md)
+---
 ## Dashboard Domain Model
 
 The transformation health dashboard brings together delivery, quality, value, and organizational signals into one executive monitoring model.
