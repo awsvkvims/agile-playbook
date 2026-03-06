@@ -30,8 +30,8 @@ nav:
       - Metrics Framework: metrics/METRICS_FRAMEWORK.md
       - Transformation Health Dashboard: metrics/TRANSFORMATION_HEALTH_DASHBOARD.md
       - Value Stream Flow: diagrams/swimlanes/VALUE_STREAM_FLOW.md
-      - Framework Comparison: diagrams/FRAMEWORK_VALUE_STREAM_COMPARISON.md
-      - Unified Overlay: diagrams/UNIFIED_VALUE_STREAM_OVERLAY.md
+      - Framework iValue Stream Comparison: diagrams/FRAMEWORK_VALUE_STREAM_COMPARISON.md
+      - Unified Value Stream Overlay: diagrams/UNIFIED_VALUE_STREAM_OVERLAY.md
 
   - Governance:
       - Agile Operating Model RACI: raci/AGILE_OPERATING_MODEL_RACI.md
