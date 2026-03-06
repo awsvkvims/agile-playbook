@@ -1,5 +1,23 @@
 # Coaching Escalation Flow
 
+## Context
+
+This diagram shows how impediments move from team-level handling to systemic escalation.
+
+It explains how teams, Scrum Masters, coaches, and leadership interact when issues exceed local control.
+
+See:
+
+- [Playbook Overview](../../playbook/PLAYBOOK.md)
+
+Related artifacts:
+
+- [Agile Coaching Structures](../../coaching/AGILE_COACHING_STRUCTURES.md)
+- [Agile Operating Model RACI](../../raci/AGILE_OPERATING_MODEL_RACI.md)
+- [Transformation Health Dashboard](../../metrics/TRANSFORMATION_HEALTH_DASHBOARD.md)
+- [Common Cultural Barriers](../../culture/COMMON_CULTURAL_BARRIERS.md)
+---
+
 This swimlane describes how impediments move from team-level handling to systemic escalation.
 
 <div class="mermaid">
