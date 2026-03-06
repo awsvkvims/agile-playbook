@@ -53,7 +53,7 @@ nav:
       - Transformation Backlog: artifacts/TRANSFORMATION_BACKLOG_TEMPLATE.md
 
   - Reference:
-      - Glossary: GLOSSARY.md
+      - Glossary: glossary/GLOSSARY.md
 
   - Site:
       - Site Instructions: SITE.md
