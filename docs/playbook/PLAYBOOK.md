@@ -274,9 +274,7 @@ See:
 
 This playbook is a living document.
 
-Changes should be proposed through the repository contribution process defined in:
-
-[CONTRIBUTING.md](../../CONTRIBUTING.md)
+Changes should be proposed through the repository contribution process defined in the repository root CONTRIBUTING.md file.
 
 Recommended review cadence:
 

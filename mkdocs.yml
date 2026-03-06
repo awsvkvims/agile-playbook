@@ -14,6 +14,7 @@ theme:
     - search.highlight
 
 nav:
+  - Home: index.md
   - Executive Summary: EXECUTIVE_TRANSFORMATION_SUMMARY.md
   - Playbook Overview: playbook/PLAYBOOK.md
 
@@ -44,6 +45,7 @@ nav:
   - Templates:
       - Retrospective Template: templates/RETROSPECTIVE_TEMPLATE.md
       - Working Agreement Template: templates/WORKING_AGREEMENT_TEMPLATE.md
+      - Coaching Agreement Template: templates/COACHING_AGREEMENT_TEMPLATE.md
 
   - Site:
       - Site Instructions: SITE.md

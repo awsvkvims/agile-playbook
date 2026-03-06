@@ -114,8 +114,4 @@ Recommended order:
 
 This playbook evolves continuously as transformation practices mature.
 
-See:
-
-[CONTRIBUTING.md](../CONTRIBUTING.md)
-
-for contribution guidelines.
+See the repository root CONTRIBUTING.md file for contribution guidelines.
