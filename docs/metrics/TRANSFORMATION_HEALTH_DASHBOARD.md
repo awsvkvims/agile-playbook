@@ -13,7 +13,45 @@ This dashboard is not a performance ranking tool.
 It is an early warning and decision-support system.
 
 ---
+## Dashboard Domain Model
 
+The transformation health dashboard brings together delivery, quality, value, and organizational signals into one executive monitoring model.
+
+<div class="mermaid">
+flowchart TB
+
+A[Transformation Health]
+
+A --> B[Flow and Delivery]
+A --> C[Predictability]
+A --> D[Quality]
+A --> E[Product Value]
+A --> F[Culture and Governance]
+
+B --> B1[Lead Time]
+B --> B2[Cycle Time]
+B --> B3[Throughput]
+B --> B4[Flow Efficiency]
+
+C --> C1[Commitment Reliability]
+C --> C2[Carryover Rate]
+C --> C3[Unplanned Work]
+
+D --> D1[Defect Escape Rate]
+D --> D2[Rework Rate]
+D --> D3[Deployment Frequency]
+D --> D4[Mean Time To Recovery]
+
+E --> E1[Feature Adoption]
+E --> E2[Outcome Achievement]
+E --> E3[Time to Feedback]
+
+F --> F1[Psychological Safety]
+F --> F2[Retro Action Completion]
+F --> F3[Escalation Frequency]
+F --> F4[Escalation Resolution Latency]
+</div>
+---
 # 1. Dashboard Structure
 
 The dashboard is organized into five domains:
