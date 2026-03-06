@@ -1,5 +1,27 @@
 # Framework Value Stream Comparison
 
+## Context
+
+This page compares how major Agile scaling frameworks map to the same underlying value stream.
+
+It is useful when selecting, tailoring, or explaining framework choices without losing sight of the delivery system itself.
+
+See:
+
+- [Playbook Overview](../playbook/PLAYBOOK.md)
+
+Related diagrams:
+
+- [Value Stream Flow](swimlanes/VALUE_STREAM_FLOW.md)
+- [Unified Value Stream Overlay](UNIFIED_VALUE_STREAM_OVERLAY.md)
+
+Related artifacts:
+
+- [Metrics Framework](../metrics/METRICS_FRAMEWORK.md)
+- [Transformation Roadmap Template](../transformation/TRANSFORMATION_ROADMAP_TEMPLATE.md)
+
+---
+
 This document compares how major scaling frameworks map to a common value stream:
 
 Idea -> Validation -> Prioritization -> Development -> Integration -> Deployment -> Feedback -> Outcome
