@@ -15,6 +15,69 @@ The goal is to make Agile transformation **explicit, repeatable, and measurable*
 
 ---
 
+## Agile Transformation System Architecture
+
+The playbook defines an integrated system for designing, executing, and sustaining Agile transformation.
+
+<div class="mermaid">
+flowchart TB
+
+A[Agile Transformation System]
+
+A --> B
+A --> C
+A --> D
+A --> E
+A --> F
+
+subgraph B[Delivery System]
+B1[Value Stream Flow]
+B2[Framework Overlay]
+B3[Metrics Framework]
+end
+
+subgraph C[Governance]
+C1[Operating Model RACI]
+C2[Escalation Flow]
+end
+
+subgraph D[Capability Development]
+D1[Agile Coaching Structures]
+D2[Maturity Model]
+D3[Maturity Assessment]
+end
+
+subgraph E[Transformation Lifecycle]
+E1[Roadmap]
+E2[Lifecycle]
+E3[Executive Review]
+end
+
+subgraph F[Artifacts and Outputs]
+F1[Transformation Health Report]
+F2[Maturity Assessment Report]
+F3[Transformation Backlog]
+end
+
+classDef core fill:#1f4e79,color:#ffffff,stroke:#1f4e79;
+
+classDef delivery fill:#dbeafe,stroke:#2563eb,color:#000;
+classDef governance fill:#fde68a,stroke:#d97706,color:#000;
+classDef capability fill:#ede9fe,stroke:#7c3aed,color:#000;
+classDef lifecycle fill:#dcfce7,stroke:#16a34a,color:#000;
+classDef artifacts fill:#f3f4f6,stroke:#6b7280,color:#000;
+
+class A core
+
+class B1,B2,B3 delivery
+class C1,C2 governance
+class D1,D2,D3 capability
+class E1,E2,E3 lifecycle
+class F1,F2,F3 artifacts
+</div>
+
+---
+
 # Start Here
 
 If you are new to this playbook, begin with the following:
