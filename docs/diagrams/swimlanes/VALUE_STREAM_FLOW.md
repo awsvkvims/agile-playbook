@@ -1,5 +1,20 @@
 # Value Stream Flow
 
+## Context
+
+This diagram shows the end-to-end delivery flow from idea intake through customer feedback.
+
+It is part of the broader Agile operating model described in:
+
+- [Playbook Overview](../../playbook/PLAYBOOK.md)
+
+Related artifacts:
+
+- [Metrics Framework](../../metrics/METRICS_FRAMEWORK.md)
+- [Transformation Health Dashboard](../../metrics/TRANSFORMATION_HEALTH_DASHBOARD.md)
+- [Unified Value Stream Overlay](../UNIFIED_VALUE_STREAM_OVERLAY.md)
+
+
 This swimlane represents how work flows from idea to delivered value.
 
 The goal is to visualize wait states, handoffs, and accountability boundaries.
