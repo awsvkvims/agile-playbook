@@ -31,6 +31,9 @@ nav:
   - Coaching:
       - Agile Coaching Structures: coaching/AGILE_COACHING_STRUCTURES.md
       - Coaching Agreement Template: templates/COACHING_AGREEMENT_TEMPLATE.md
+      
+  - Capability Development:
+      - Continuous Learning Forums: capability/CONTINUOUS_LEARNING.md
 
   - Delivery and Flow:
       - Metrics Framework: metrics/METRICS_FRAMEWORK.md
