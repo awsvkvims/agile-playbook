@@ -1,7 +1,7 @@
 site_name: Agile Transformation Playbook
 site_description: Operating model, coaching structures, metrics, governance, and transformation artifacts
 site_author: Your Organization
-repo_url: https://github.com/YOUR_USERNAME/agile-playbook
+repo_url: https://github.com/awsvkvims/agile-playbook
 repo_name: agile-playbook
 
 theme:
