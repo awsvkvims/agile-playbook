@@ -110,6 +110,12 @@ Recommended order:
 
 ---
 
+## Reference
+
+- [Glossary](GLOSSARY.md)
+
+---
+
 # Contributing
 
 This playbook evolves continuously as transformation practices mature.

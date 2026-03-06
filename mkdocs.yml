@@ -47,9 +47,18 @@ nav:
       - Working Agreement Template: templates/WORKING_AGREEMENT_TEMPLATE.md
       - Coaching Agreement Template: templates/COACHING_AGREEMENT_TEMPLATE.md
 
+  - Artifacts:
+      - Transformation Health Report: artifacts/TRANSFORMATION_HEALTH_REPORT_TEMPLATE.md
+      - Maturity Assessment Report: artifacts/MATURITY_ASSESSMENT_REPORT_TEMPLATE.md
+      - Transformation Backlog: artifacts/TRANSFORMATION_BACKLOG_TEMPLATE.md
+
+  - Reference:
+      - Glossary: GLOSSARY.md
+
   - Site:
       - Site Instructions: SITE.md
       - Style Guide: STYLE_GUIDE.md
+     
       
 markdown_extensions:
   - toc:

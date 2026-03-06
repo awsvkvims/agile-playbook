@@ -91,23 +91,28 @@ The goal is internal sustainability, not permanent dependency.
 The playbook includes a multi-layer measurement model:
 
 Flow:
+
 - Lead time
 - Cycle time
 - Throughput
 - Flow efficiency
 
 Delivery predictability:
+
 - Commitment reliability
 
 Quality:
+
 - Defect escape rate
 - Rework rate
 
 Product value:
+
 - Adoption
 - Outcome achievement
 
 Cultural health:
+
 - Psychological safety
 - Retro action completion rate
 
@@ -147,21 +152,25 @@ Interventions focus on:
 The roadmap follows four phases:
 
 Phase 1: Stabilize
+
 - Establish working agreements
 - Baseline flow metrics
 - Standardize Definition of Done
 
 Phase 2: Optimize
+
 - Improve flow efficiency
 - Reduce dependency delays
 - Improve technical quality
 
 Phase 3: Scale
+
 - Align multi-team coordination
 - Clarify portfolio prioritization
 - Simplify governance
 
 Phase 4: Sustain
+
 - Coach exit transitions
 - Internal champions enabled
 - Continuous improvement embedded

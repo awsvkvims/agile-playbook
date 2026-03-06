@@ -13,6 +13,7 @@ The roadmap should be capability-based, not tool-based.
 Describe the intended operating model in 12 to 24 months.
 
 Cover:
+
 - Delivery model (product vs project)
 - Governance model
 - Funding model
@@ -25,6 +26,7 @@ Cover:
 Define 3 to 7 transformation outcomes.
 
 Examples:
+
 - Lead time reduced by 30 percent
 - Predictability variance under 15 percent
 - Customer validation integrated into every release cycle
@@ -52,6 +54,7 @@ Examples:
 ## 2.3 Structural Gaps
 
 Identify structural impediments:
+
 - Approval gates
 - Funding constraints
 - Dependency bottlenecks
@@ -67,6 +70,7 @@ Identify structural impediments:
 Goal: Create baseline delivery control and visibility.
 
 Focus areas:
+
 - Establish working agreements
 - Implement WIP limits
 - Standardize Definition of Done
@@ -74,6 +78,7 @@ Focus areas:
 - Train Product Owners and Scrum Masters
 
 Exit criteria:
+
 - Teams run structured retros
 - Flow metrics visible and understood
 - Backlog refinement cadence established
@@ -85,6 +90,7 @@ Exit criteria:
 Goal: Improve flow, quality, and predictability.
 
 Focus areas:
+
 - Dependency reduction
 - Improved slicing and refinement
 - Technical excellence improvements
@@ -92,6 +98,7 @@ Focus areas:
 - Escalation model implemented
 
 Exit criteria:
+
 - Predictability within target range
 - Reduced blocked work percentage
 - Stable throughput trend
@@ -103,6 +110,7 @@ Exit criteria:
 Goal: Align multiple teams and improve system-level efficiency.
 
 Focus areas:
+
 - Cross-team coordination model
 - Program-level metrics
 - Portfolio prioritization model
@@ -110,6 +118,7 @@ Focus areas:
 - Incentive realignment
 
 Exit criteria:
+
 - Reduced cross-team wait time
 - Clear portfolio decision rights
 - Consistent operating model across teams
@@ -121,12 +130,14 @@ Exit criteria:
 Goal: Ensure transformation durability.
 
 Focus areas:
+
 - Coach exit transitions
 - Internal champions enabled
 - Periodic health assessments
 - Continuous improvement culture embedded
 
 Exit criteria:
+
 - Teams self-diagnose bottlenecks
 - Improvement backlog active without external prompting
 - Leadership behavior aligned with Agile principles
@@ -136,6 +147,7 @@ Exit criteria:
 # 4. Governance Model
 
 Define:
+
 - Decision rights
 - Escalation pathway
 - Funding model alignment
@@ -190,6 +202,7 @@ Transformation review should occur:
 - Annually for operating model reassessment
 
 Each review must assess:
+
 - Metric trends
 - Cultural signals
 - Escalation frequency

@@ -176,7 +176,7 @@ Templates:
 
 These templates support continuous improvement at the team level.
 
----
+
 ---
 
 # Recommended Reading Paths
@@ -363,6 +363,16 @@ Shows how systemic issues escalate across teams, coaches, and leadership.
 See:
 
 [Coaching Escalation Flow](../diagrams/swimlanes/COACHING_ESCALATION_FLOW.md)
+
+---
+
+## Glossary
+
+Key terminology used across the playbook is defined in the glossary.
+
+See:
+
+- [Glossary](../GLOSSARY.md)
 
 ---
 
