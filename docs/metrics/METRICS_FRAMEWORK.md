@@ -12,6 +12,17 @@ Each metric must include:
 - Anti-pattern warning
 
 ---
+## Related
+
+These artifacts use or interpret the metrics defined in this framework.
+
+- [Transformation Health Dashboard](TRANSFORMATION_HEALTH_DASHBOARD.md)
+- [Value Stream Flow](../diagrams/swimlanes/VALUE_STREAM_FLOW.md)
+- [Unified Value Stream Overlay](../diagrams/UNIFIED_VALUE_STREAM_OVERLAY.md)
+- [Agile Maturity Model](../transformation/AGILE_MATURITY_MODEL.md)
+- [Maturity Scoring Worksheet](../transformation/MATURITY_SCORING_WORKSHEET.md)
+
+---
 ## Metrics Architecture
 
 The metrics framework measures delivery performance across the value stream, from idea intake to customer outcomes.
